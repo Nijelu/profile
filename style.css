@@ -37,8 +37,12 @@ td {
   padding: 15px 10px;
 }
 
+i {
+  margin: 30px;
+}
+
 .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -90,5 +94,16 @@ td {
   border-radius: 25%;
 }
 
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0a061d;
+}
+#page-content {
+  margin-left: 120px;
+}
 
 
