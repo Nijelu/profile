@@ -1,9 +1,13 @@
+@import url('components/avatar.css');
+@import url('components/profile_header.css');
+
 body {
   background-color: #000000;
   color: #011f3f;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.2em;
   line-height: 1.2em;
+  margin: 0;
 }
 
 h1 {
@@ -85,13 +89,6 @@ td {
 
 .color-warning {
   color: #bf0000;
-}
-
-#avatar {
-  margin: auto;
-  max-width: 500px;
-  width: 50%;
-  border-radius: 25%;
 }
 
 #sidebar {
